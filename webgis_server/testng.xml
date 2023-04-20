@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/SoftwareTest/program1/calcalutor_server/home_server/src/test">
+        <classes>
+            <class name="com.xxxx.server.controller.CalculatorControllerTest">
+                <methods>
+                    <include name="testCostOut"/>
+                    <include name="testJudge3"/>
+                    <include name="testTest1"/>
+                    <include name="testSpecial"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
